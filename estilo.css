@@ -1,31 +1,109 @@
 *{
     padding: 0;
-    margin: 0;
+    margin: 0px;
+    
+} 
+body{
+    max-width: 1280px;
+    max-height: 1020px;
+    display: grid;
+    background-color: grey;
+
 }
+
 h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: oblique;
     text-align: center;
     background-color: black;
     color: aliceblue;
     padding: 20px;
+    
+}
+.Pre_Text p{
+    color: white;
+    border-radius: 80px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    font-weight: 100;
+    font-style: oblique;
+    text-align: center;
+    display: grid;
+    padding: 2%;
+    margin: 70px;
+    background-color: black;
+   
 }
 section{
+    text-align: center;
+    display: inline;
     background-color: black;
-    color: aquamarine;
+    color: white;
     font-family: 'Times New Roman', Times, serif;
-    padding: 10%;
-    margin: 0;
-    width: 80%;
-    border: 2px solid black;
-    border-radius: 10px;
+    padding: 5%;
+    margin: 20px;
+    border-radius: 50px;
     box-shadow:  0 0 10px rgba(0, 0, 0, 0.1);
+    
+}
+.icon{
+    text-align: center;
+    display: flexbox;
+    color: black;
+    margin: 20px;
+    background-color: grey;
+    padding: 5%;
+    margin: 40px;
+    border: 30px solid gray;
+    border-radius: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+
+}
+.icon h2{
+    text-align: center;
+    font-weight: 500;
+}
+.icon a{
+    font-size: 50px;
+}
+.icon a:hover{
+    transform: scale(1.2);
+    color: aqua;
+}
+.fb{
+    color: blue;
+}
+.tk{
+    color: black;
+}
+.ig{
+    color: red;
+}
+.x{
+    color: black;
 }
 form label{
-    display: flex;
-
+    display: flexbox;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+}
+.contac h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: oblique;
+    color: white;
+    display: grid;
+    background-color: gray;
+    border-radius: 50px;
+    text-align: center;
+    margin: 20px;
 }
 
 nav ul{
-    background-color: aquamarine;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: oblique;
+    font-size: larger;
+    background-color: grey;
     width: 100%;
     list-style-type: none;
     text-align: center;
@@ -40,48 +118,57 @@ nav a{
     width: 150px;
 }
 nav li:hover{
-    background-color: blueviolet;
+    background-color: purple;
 }
 img{
-    width: 400px;
-    height: 400px;
-    object-fit: cover;
-
+    margin: 30px;
+    max-width: 100%;
+    width: 200px;
+    height: auto;
+    display: block;
 }
 .contenido{
-    display: flex;
+    display: inline;
     margin: 60px;
 }
 .articulos{
     width: 80%;
-    border-right: 3px solid black;
+    display: flex;
 }
 .Secciones{
-    display: flex;
+    transition: all ease 300ms;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: oblique;
+    font-size: larger;
+    text-align: center;
+    display: flexbox;
     box-shadow:  0 0 10px rgba(0, 0, 0, 0.1);
-    margin: 20px 20px;
-    color: white;
+    margin: 0px 10px;
+    color: grey;
     background-color: black;
     border: 2px solid black;
     box-shadow:  0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 80px;
     align-items: center;
     padding: 40px;
+    gap: 20px;
 }
 .Secciones:hover{
-    display: grid;
+    transform: scale(1.2);
     background-color: white;
     color: black;
 }
 .menu-secundario{
-    width: 20%;
+    width: 10%;
     margin-top: 60px;
+
 }
 .menu-secundario a{
     display: block;
     text-align: center;
-    color: red;
+    color: white;
     margin-bottom: 20px;
+    
 }
 footer {
     width: 100%;
