@@ -46,6 +46,25 @@ nav li:hover{
     transform: scale(1.2);
     background-color: purple;
 }
+.sug{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 80px;
+    justify-content: center;
+}
+.sug a{
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 1);
+    border-radius: 30px;
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.sug a:hover{
+    background-color: white;
+    color: purple;
+}
 .contenedor{
     border-radius: 20px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 1);
@@ -111,9 +130,19 @@ footer p {
     .secciones{
         width: 100%;
     }
+    .nav li{
+        width: 100%;
+    }
 }
 @media screen and (max-width: 400px) {
+    .resoluciones{
+        width: 100%;
+    }
     .secciones{
         width: 80%;
+    }
+    .nav li{
+        width: 80%;
+        justify-content: center;
     }
 }
