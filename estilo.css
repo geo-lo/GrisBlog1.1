@@ -10,7 +10,9 @@ body{
     background-color: grey;
 
 }
-
+.resolucion{
+    background-color: orange;
+}
 h1{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-style: oblique;
@@ -36,15 +38,6 @@ h1{
 }
 section{
     text-align: center;
-    display: inline;
-    background-color: black;
-    color: white;
-    font-family: 'Times New Roman', Times, serif;
-    padding: 5%;
-    margin: 20px;
-    border-radius: 50px;
-    box-shadow:  0 0 10px rgba(0, 0, 0, 0.1);
-    
 }
 .icon{
     text-align: center;
@@ -83,7 +76,6 @@ section{
     color: black;
 }
 form label{
-    display: flexbox;
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
     font-size: medium;
@@ -128,20 +120,22 @@ img{
     display: block;
 }
 .contenido{
+    max-width: 100%;
     display: inline;
     margin: 60px;
 }
 .articulos{
+    max-width: 100%;
     width: 80%;
     display: flex;
 }
 .Secciones{
+    max-width: 100%;
     transition: all ease 300ms;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-style: oblique;
     font-size: larger;
     text-align: center;
-    display: flexbox;
     box-shadow:  0 0 10px rgba(0, 0, 0, 0.1);
     margin: 0px 10px;
     color: grey;
