@@ -3,7 +3,7 @@ body{
     background-color: gray;
 }
 h1{
-    position: relative;
+    border-radius: 20px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-style: oblique;
     text-align: center;
@@ -12,20 +12,20 @@ h1{
     padding: 20px;
 }
 p{
-    position: relative;
+    
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: x-large;
     font-style: oblique;
     text-align: center;
 }
 nav li{
-    position: relative;
+    
     transition: all ease 300ms;
     text-align: center;
     display: inline-flex;
 }
 nav ul{
-    position: relative;
+    
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-style: oblique;
     font-size: larger;
@@ -35,7 +35,7 @@ nav ul{
     text-align: center;
 }
 nav a{
-    position: relative;
+    
     text-align: center;
     font-size: larger;
     color: black;
@@ -47,12 +47,16 @@ nav li:hover{
     background-color: purple;
 }
 .contenedor{
-    position: relative;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 1);
 }
 .cont{
     display: flex;
+    flex-wrap: wrap;
+    
 }
 .secciones{
+    display: flex;
     color: white;
     background-color: black;
     max-width: 100%;
@@ -71,7 +75,6 @@ nav li:hover{
     transform: scale(1.2);
 }
 .icon{
-    position: relative;
     text-align: center;
     font-size: x-large;
     padding: 40px;
@@ -85,7 +88,8 @@ nav li:hover{
     color: aqua;
 }
 footer {
-    position: relative;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+    border-radius: 30px;
     width: 100%;
     background-color: black;
     color: white;
@@ -99,4 +103,17 @@ footer p {
     width: 100%;
     margin: 0 auto;
     max-width: 1000px;
+}
+@media screen and (max-width: 800px) {
+    .resoluciones{
+        width: 100%;
+    }
+    .secciones{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 400px) {
+    .secciones{
+        width: 80%;
+    }
 }
